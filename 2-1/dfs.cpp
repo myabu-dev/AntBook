@@ -4,7 +4,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 int  main(){
-    std::cout<<std::endl<<"Hello CLion"<<std::endl;
     return 0;
 }
