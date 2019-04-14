@@ -65,6 +65,43 @@ CMAKE_SOURCE_DIR = /Users/yuu/Documents/AntBook/2-2
 CMAKE_BINARY_DIR = /Users/yuu/Documents/AntBook/2-2/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/京都大学プログラミングコンテスト2015-A.dir
+
+# All Build rule for target.
+CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/all:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/depend
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 京都大学プログラミングコンテスト2015-A"
+.PHONY : CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/all
+
+# Include target in all.
+all: CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AntBook/2-2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AntBook/2-2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/rule
+
+# Convenience name for target.
+京都大学プログラミングコンテスト2015-A: CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/rule
+
+.PHONY : 京都大学プログラミングコンテスト2015-A
+
+# clean rule for target.
+CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/clean:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/clean
+.PHONY : CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/JOI07-A.dir
 
 # All Build rule for target.

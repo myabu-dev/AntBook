@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuu/Documents/AntBook/2-2/京都大学プログラミングコンテスト2015-A.cpp
+iostream
+-
+string
+-
+algorithm
+-
+vector
+-
+map
+-
+utility
+-
+math.h
+-
+

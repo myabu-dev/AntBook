@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 京都大学プログラミングコンテスト2015-A
+
+# Build rule for target.
+京都大学プログラミングコンテスト2015-A: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 京都大学プログラミングコンテスト2015-A
+.PHONY : 京都大学プログラミングコンテスト2015-A
+
+# fast build rule for target.
+京都大学プログラミングコンテスト2015-A/fast:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build
+.PHONY : 京都大学プログラミングコンテスト2015-A/fast
+
+#=============================================================================
 # Target rules for targets named JOI07-A
 
 # Build rule for target.
@@ -150,6 +163,33 @@ JOI07-A.cpp.s:
 	$(MAKE) -f CMakeFiles/JOI07-A.dir/build.make CMakeFiles/JOI07-A.dir/JOI07-A.cpp.s
 .PHONY : JOI07-A.cpp.s
 
+京都大学プログラミングコンテスト2015-A.o: 京都大学プログラミングコンテスト2015-A.cpp.o
+
+.PHONY : 京都大学プログラミングコンテスト2015-A.o
+
+# target to build an object file
+京都大学プログラミングコンテスト2015-A.cpp.o:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/京都大学プログラミングコンテスト2015-A.cpp.o
+.PHONY : 京都大学プログラミングコンテスト2015-A.cpp.o
+
+京都大学プログラミングコンテスト2015-A.i: 京都大学プログラミングコンテスト2015-A.cpp.i
+
+.PHONY : 京都大学プログラミングコンテスト2015-A.i
+
+# target to preprocess a source file
+京都大学プログラミングコンテスト2015-A.cpp.i:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/京都大学プログラミングコンテスト2015-A.cpp.i
+.PHONY : 京都大学プログラミングコンテスト2015-A.cpp.i
+
+京都大学プログラミングコンテスト2015-A.s: 京都大学プログラミングコンテスト2015-A.cpp.s
+
+.PHONY : 京都大学プログラミングコンテスト2015-A.s
+
+# target to generate assembly for a file
+京都大学プログラミングコンテスト2015-A.cpp.s:
+	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/京都大学プログラミングコンテスト2015-A.cpp.s
+.PHONY : 京都大学プログラミングコンテスト2015-A.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 京都大学プログラミングコンテスト2015-A"
 	@echo "... JOI07-A"
 	@echo "... JOI07-A.o"
 	@echo "... JOI07-A.i"
 	@echo "... JOI07-A.s"
+	@echo "... 京都大学プログラミングコンテスト2015-A.o"
+	@echo "... 京都大学プログラミングコンテスト2015-A.i"
+	@echo "... 京都大学プログラミングコンテスト2015-A.s"
 .PHONY : help
 
 

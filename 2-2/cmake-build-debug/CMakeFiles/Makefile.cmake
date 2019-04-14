@@ -50,5 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/DependInfo.cmake"
   "CMakeFiles/JOI07-A.dir/DependInfo.cmake"
   )
