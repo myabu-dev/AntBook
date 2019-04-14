@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ABC076-C
+
+# Build rule for target.
+ABC076-C: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ABC076-C
+.PHONY : ABC076-C
+
+# fast build rule for target.
+ABC076-C/fast:
+	$(MAKE) -f CMakeFiles/ABC076-C.dir/build.make CMakeFiles/ABC076-C.dir/build
+.PHONY : ABC076-C/fast
+
+#=============================================================================
 # Target rules for targets named 京都大学プログラミングコンテスト2015-A
 
 # Build rule for target.
@@ -135,6 +148,33 @@ JOI07-A: cmake_check_build_system
 JOI07-A/fast:
 	$(MAKE) -f CMakeFiles/JOI07-A.dir/build.make CMakeFiles/JOI07-A.dir/build
 .PHONY : JOI07-A/fast
+
+ABC076-C.o: ABC076-C.cpp.o
+
+.PHONY : ABC076-C.o
+
+# target to build an object file
+ABC076-C.cpp.o:
+	$(MAKE) -f CMakeFiles/ABC076-C.dir/build.make CMakeFiles/ABC076-C.dir/ABC076-C.cpp.o
+.PHONY : ABC076-C.cpp.o
+
+ABC076-C.i: ABC076-C.cpp.i
+
+.PHONY : ABC076-C.i
+
+# target to preprocess a source file
+ABC076-C.cpp.i:
+	$(MAKE) -f CMakeFiles/ABC076-C.dir/build.make CMakeFiles/ABC076-C.dir/ABC076-C.cpp.i
+.PHONY : ABC076-C.cpp.i
+
+ABC076-C.s: ABC076-C.cpp.s
+
+.PHONY : ABC076-C.s
+
+# target to generate assembly for a file
+ABC076-C.cpp.s:
+	$(MAKE) -f CMakeFiles/ABC076-C.dir/build.make CMakeFiles/ABC076-C.dir/ABC076-C.cpp.s
+.PHONY : ABC076-C.cpp.s
 
 JOI07-A.o: JOI07-A.cpp.o
 
@@ -198,8 +238,12 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ABC076-C"
 	@echo "... 京都大学プログラミングコンテスト2015-A"
 	@echo "... JOI07-A"
+	@echo "... ABC076-C.o"
+	@echo "... ABC076-C.i"
+	@echo "... ABC076-C.s"
 	@echo "... JOI07-A.o"
 	@echo "... JOI07-A.i"
 	@echo "... JOI07-A.s"

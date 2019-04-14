@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ABC076-C">
+				<Option output="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/ABC076-C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABC076-C"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ABC076-C/fast">
+				<Option output="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/ABC076-C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABC076-C/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="京都大学プログラミングコンテスト2015-A">
 				<Option output="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug/京都大学プログラミングコンテスト2015-A" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuu/Documents/AntBook/2-2/cmake-build-debug"/>
@@ -122,6 +164,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yuu/Documents/AntBook/2-2/ABC076-C.cpp">
+			<Option target="ABC076-C"/>
+		</Unit>
 		<Unit filename="/Users/yuu/Documents/AntBook/2-2/JOI07-A.cpp">
 			<Option target="JOI07-A"/>
 		</Unit>
