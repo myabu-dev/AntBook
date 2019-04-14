@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named JOI07-A
+
+# Build rule for target.
+JOI07-A: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JOI07-A
+.PHONY : JOI07-A
+
+# fast build rule for target.
+JOI07-A/fast:
+	$(MAKE) -f CMakeFiles/JOI07-A.dir/build.make CMakeFiles/JOI07-A.dir/build
+.PHONY : JOI07-A/fast
+
+#=============================================================================
+# Target rules for targets named ARC006-C
+
+# Build rule for target.
+ARC006-C: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ARC006-C
+.PHONY : ARC006-C
+
+# fast build rule for target.
+ARC006-C/fast:
+	$(MAKE) -f CMakeFiles/ARC006-C.dir/build.make CMakeFiles/ARC006-C.dir/build
+.PHONY : ARC006-C/fast
+
+#=============================================================================
 # Target rules for targets named ABC076-C
 
 # Build rule for target.
@@ -135,19 +161,6 @@ ABC076-C/fast:
 京都大学プログラミングコンテスト2015-A/fast:
 	$(MAKE) -f CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build.make CMakeFiles/京都大学プログラミングコンテスト2015-A.dir/build
 .PHONY : 京都大学プログラミングコンテスト2015-A/fast
-
-#=============================================================================
-# Target rules for targets named JOI07-A
-
-# Build rule for target.
-JOI07-A: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 JOI07-A
-.PHONY : JOI07-A
-
-# fast build rule for target.
-JOI07-A/fast:
-	$(MAKE) -f CMakeFiles/JOI07-A.dir/build.make CMakeFiles/JOI07-A.dir/build
-.PHONY : JOI07-A/fast
 
 ABC076-C.o: ABC076-C.cpp.o
 
@@ -175,6 +188,33 @@ ABC076-C.s: ABC076-C.cpp.s
 ABC076-C.cpp.s:
 	$(MAKE) -f CMakeFiles/ABC076-C.dir/build.make CMakeFiles/ABC076-C.dir/ABC076-C.cpp.s
 .PHONY : ABC076-C.cpp.s
+
+ARC006-C.o: ARC006-C.cpp.o
+
+.PHONY : ARC006-C.o
+
+# target to build an object file
+ARC006-C.cpp.o:
+	$(MAKE) -f CMakeFiles/ARC006-C.dir/build.make CMakeFiles/ARC006-C.dir/ARC006-C.cpp.o
+.PHONY : ARC006-C.cpp.o
+
+ARC006-C.i: ARC006-C.cpp.i
+
+.PHONY : ARC006-C.i
+
+# target to preprocess a source file
+ARC006-C.cpp.i:
+	$(MAKE) -f CMakeFiles/ARC006-C.dir/build.make CMakeFiles/ARC006-C.dir/ARC006-C.cpp.i
+.PHONY : ARC006-C.cpp.i
+
+ARC006-C.s: ARC006-C.cpp.s
+
+.PHONY : ARC006-C.s
+
+# target to generate assembly for a file
+ARC006-C.cpp.s:
+	$(MAKE) -f CMakeFiles/ARC006-C.dir/build.make CMakeFiles/ARC006-C.dir/ARC006-C.cpp.s
+.PHONY : ARC006-C.cpp.s
 
 JOI07-A.o: JOI07-A.cpp.o
 
@@ -238,12 +278,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... JOI07-A"
+	@echo "... ARC006-C"
 	@echo "... ABC076-C"
 	@echo "... 京都大学プログラミングコンテスト2015-A"
-	@echo "... JOI07-A"
 	@echo "... ABC076-C.o"
 	@echo "... ABC076-C.i"
 	@echo "... ABC076-C.s"
+	@echo "... ARC006-C.o"
+	@echo "... ARC006-C.i"
+	@echo "... ARC006-C.s"
 	@echo "... JOI07-A.o"
 	@echo "... JOI07-A.i"
 	@echo "... JOI07-A.s"

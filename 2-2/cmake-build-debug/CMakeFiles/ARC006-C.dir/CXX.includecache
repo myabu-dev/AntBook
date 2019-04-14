@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuu/Documents/AntBook/2-2/ARC006-C.cpp
+iostream
+-
+string
+-
+algorithm
+-
+vector
+-
+map
+-
+utility
+-
+math.h
+-
+stack
+-
+queue
+-
+
